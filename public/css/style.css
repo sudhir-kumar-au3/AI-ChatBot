@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    border-radius: 50%;
+    background: linear-gradient(black, maroon)
+}
+button :hover{
+    transform: scale(.92);
+    /* background: linear-gradient(tomato, orange);
+    border-radius: 50%; */
+}
+button:active{
+    filter: brightness(.8);
+}
+button:focus{
+    outline: 0;
+}
+.foot{
+    background: rgba(0,0,0,1);
+    position:  fixed;
+    left: 0;
+    bottom: 0;
+  width: 100%;
+  text-align:  center;
+  }
+body {
+    background: linear-gradient(black, rgb(0,0,0,0.8));
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+@media(max-width: 600px){
+    body{
+        font-size: inherit;
+      line-height: inherit;
+    }
+}
