@@ -38,4 +38,7 @@ body {
         font-size: inherit;
       line-height: inherit;
     }
+    .title{
+        display: none;
+    }
 }
