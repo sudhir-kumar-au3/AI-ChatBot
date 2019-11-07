@@ -25,10 +25,14 @@ button:focus{
   text-align:  center;
   }
 body {
-    background: linear-gradient(black, rgb(0,0,0,0.8));
+    background-image: url(https://www.mindbridge.ai/wp-content/uploads/2018/12/matrix-Background-dark.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
   }
+.chatBox{
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}  
 @media(max-width: 600px){
     body{
         font-size: inherit;

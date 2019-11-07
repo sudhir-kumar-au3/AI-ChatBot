@@ -6,12 +6,11 @@ const express = require('express');
 const app = express();
 app.use(express.static(__dirname+'/views'));
 app.use(express.static(__dirname+'/public'));
-const server = app.listen(process.env.PORT ||3000, () => {
-    console.log('App listening on port  ', server.address().port, app.settings.env);
-});
+const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 io.on('connection', function(socket){
     console.log('user connected');
+    socket.on('disconnect', () => console.log('user disconnected'));
 })
 
 const apiai = require('apiai')(APIAI_TOKEN);
@@ -22,7 +21,7 @@ io.on('connection', function(socket){
     socket.on('chat message', (text) => {
         console.log('message: '+ text);
         let apiaiReq = apiai.textRequest(text, {
-            sessionID: APIAI_SESSION_ID
+            sessionId: APIAI_SESSION_ID
         });
         apiaiReq.on('response', (response) => {
             let aiText = response.result.fulfillment.speech;
@@ -34,4 +33,7 @@ io.on('connection', function(socket){
         });
         apiaiReq.end();
     });
+});
+server.listen(process.env.PORT ||3000, () => {
+    console.log('App listening on port  ', server.address().port, app.settings.env);
 });
