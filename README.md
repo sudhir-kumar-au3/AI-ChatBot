@@ -1,4 +1,4 @@
-# AI-ChatBot
+# The Moody Assistant
 AI Chatbot with web speech API (socket.io) and  NodeJs
 ## Technologies Used
 1. NodeJs (ExpressJs).
