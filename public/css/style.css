@@ -7,8 +7,7 @@ button{
 }
 button :hover{
     transform: scale(.92);
-    /* background: linear-gradient(tomato, orange);
-    border-radius: 50%; */
+   
 }
 button:active{
     filter: brightness(.8);
@@ -30,13 +29,20 @@ body {
     background-size: cover;
   }
 .chatBox{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
     border-radius: 20px;
 }  
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 @media(max-width: 600px){
     body{
-        font-size: inherit;
+      font-size: inherit;
       line-height: inherit;
+      background-image: url(https://i.pinimg.com/736x/c0/e3/85/c0e385f98e6cb2db508d00ce300c8d67.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+
     }
     .title{
         display: none;
