@@ -24,7 +24,7 @@ AI Chatbot with web speech API (socket.io) and  NodeJs
 3. Select node or react project to deploy and make necessary changes in `package.json` file.
 4. On Heroku `CLI` enter `$ heroku create <your application name>`.
 5. Then enter `$ heroku config:set"<env variables if any>"`.
-6. `git add .`
-7. `git commit -m"<your commit message>"`.
-8. `git push heroku master`.
+6. `$ git add .`
+7. `$ git commit -m"<your commit message>"`.
+8. `$ git push heroku master`.
 9. You deployed your app successfully (visit the link and have fun!).
