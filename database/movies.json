@@ -1,41 +1,48 @@
 [
     {
+      "url":"https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg",
       "id": "1",
       "title": "Wonder Woman",
       "category": "Action",
       "IMDB": 8.5
     },
     {
+      "url":"https://i.ebayimg.com/images/g/ctsAAOSw4GVYLgHB/s-l300.jpg",
       "id": "2",
       "title": "Superman",
       "category": "Action",
       "IMDB": 8.5
     },
     {
+      "url":"https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR1,0,182,268_AL_.jpg",
       "id": "3",
       "title": "Forest Gump",
       "category": "Action",
       "IMDB": 8.5
     },
     {
+      "url":"https://img.moviepostershop.com/idiocracy-movie-poster-2006-1010722414.jpg",
       "id": "4",
       "title": "Idiocracy",
       "category": "Comedy",
       "IMDB": 8.5
     },
     {
+      "url":"https://images-na.ssl-images-amazon.com/images/I/51wEYwlLldL._AC_SY450_.jpg",
       "id": "5",
       "title": "Shrek",
       "category": "Comedy",
       "IMDB": 8.5
     },
     {
+      "url":"https://images-na.ssl-images-amazon.com/images/I/51T82FS9Y8L._SY445_.jpg",
       "id": "6",
       "title": "Supersize Me",
       "category": "Comedy",
       "IMDB": 8.5
     },
     {
+      "url":"https://img.moviepostershop.com/kill-bill-vol-1-movie-poster-2003-1010477807.jpg",
       "id": "7",
       "title": "Kill Bill",
       "category": "Action",
